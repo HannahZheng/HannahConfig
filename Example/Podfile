@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HannahUIKit_Example' do
+  pod 'HannahUIKit', :path => '../'
+
+  target 'HannahUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
