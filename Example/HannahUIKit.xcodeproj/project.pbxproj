@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1F7F5432FFFFEE69C9B4E4F3 /* Pods-HannahUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HannahUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HannahUIKit_Tests/Pods-HannahUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4038BBECCB8D16F4AB2B02FF /* Pods_HannahUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HannahUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		522F2482C6C68406E63C770B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		522F2482C6C68406E63C770B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HannahUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HannahUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84B8C38CA39CF378D42ECAFA /* HannahUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HannahUIKit.podspec; path = ../HannahUIKit.podspec; sourceTree = "<group>"; };
+		84B8C38CA39CF378D42ECAFA /* HannahUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HannahUIKit.podspec; path = ../HannahUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A01DF72F57F3A618EAD2603 /* Pods-HannahUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HannahUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HannahUIKit_Example/Pods-HannahUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A66B3605D74B2E0025DF4FB4 /* Pods-HannahUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HannahUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HannahUIKit_Example/Pods-HannahUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0E8DC895DAF5C7D430C0C2D /* Pods-HannahUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HannahUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HannahUIKit_Tests/Pods-HannahUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D88712E265C852EF04EE5FBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D88712E265C852EF04EE5FBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F4A5764B220BD6EB5908399E /* Pods_HannahUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HannahUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -337,11 +337,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HannahUIKit_Example/Pods-HannahUIKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HannahUIKit/HannahUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HannahUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

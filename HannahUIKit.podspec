@@ -29,14 +29,22 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'HannahUIKit/Classes/**/*'
+#HannahUIKit/Classes/**/*
+  s.source_files = 'HannahUIKit/Classes/HannahUIKit.h',
   
   # s.resource_bundles = {
   #   'HannahUIKit' => ['HannahUIKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
+   s.dependency 'Masonry'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+#导航 uiviewController
+s.subspec 'HHNavgationKit' do |spec|
+spec.source_files = 'HannahCategory/Classes/HHNavgationKit/**/*'
+end
+
+
 end

@@ -1,0 +1,26 @@
+PODS:
+  - HannahUIKit (0.1.0):
+    - HannahUIKit/HHNavgationKit (= 0.1.0)
+    - Masonry
+  - HannahUIKit/HHNavgationKit (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - HannahUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  HannahUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HannahUIKit: c45e8353b0a2c8433b63bad60d7bb2d4a0b6ad84
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 1eb5af4f0b19e30deb931b9072e9b8f5cc6088d5
+
+COCOAPODS: 1.5.3
