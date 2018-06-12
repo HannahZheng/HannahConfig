@@ -20,18 +20,38 @@
   },
   "frameworks": "UIKit",
   "source_files": [
-    "HannahUIKit/Classes/HannahUIKit.h",
+    "HannahUIKit/**.h",
     "UIKit"
   ],
   "dependencies": {
     "Masonry": [
 
+    ],
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
     ]
   },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"MJRefresh.h\"",
+    "#import \"MBProgressHUD.h\""
+  ],
   "subspecs": [
     {
       "name": "HHNavgationKit",
-      "source_files": "HannahCategory/Classes/HHNavgationKit/**/*"
+      "source_files": "HannahUIKit/Classes/HHNavgationKit/**/*",
+      "resources": "HannahUIKit/Classes/HHNavgationKit/*.png"
+    },
+    {
+      "name": "HHTabKit",
+      "source_files": "HannahUIKit/Classes/HHTabKit/**/*"
+    },
+    {
+      "name": "HHHudTool",
+      "source_files": "HannahUIKit/Classes/HHHudTool/**/*"
     }
   ]
 }

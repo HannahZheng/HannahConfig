@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "HannahMacro.h"
+#import "HannahUIKit.h"
+#import "HHProgressHUDTool.h"
+#import "UINavigationController+HHCustom.h"
+#import "UIViewController+HHCustom.h"
+#import "HHTabBar.h"
+#import "UITabBar+HHCustom.h"
+#import "UITabBarController+HHCustom.h"
 
 FOUNDATION_EXPORT double HannahUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HannahUIKitVersionString[];

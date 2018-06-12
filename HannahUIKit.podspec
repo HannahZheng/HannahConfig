@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 #HannahUIKit/Classes/**/*
-  s.source_files = 'HannahUIKit/Classes/HannahUIKit.h',
+  s.source_files = 'HannahUIKit/**.h',
   
   # s.resource_bundles = {
   #   'HannahUIKit' => ['HannahUIKit/Assets/*.png']
@@ -39,12 +39,31 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'Masonry'
+   s.dependency 'MJRefresh'
+   s.dependency 'MBProgressHUD'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.prefix_header_contents =
+  '#import "Masonry.h"',
+  '#import "MJRefresh.h"',
+  '#import "MBProgressHUD.h"'
 
 #导航 uiviewController
 s.subspec 'HHNavgationKit' do |spec|
-spec.source_files = 'HannahCategory/Classes/HHNavgationKit/**/*'
+spec.source_files = 'HannahUIKit/Classes/HHNavgationKit/**/*'
+spec.resource = 'HannahUIKit/Classes/HHNavgationKit/*.png'
 end
 
+#TabBar
+s.subspec 'HHTabKit' do |spec|
+    spec.source_files = 'HannahUIKit/Classes/HHTabKit/**/*'
+    # spec.resource = 'HannahUIKit/Classes/HHTabKit/*.png'
+end
+
+
+#HHHudTool
+s.subspec 'HHHudTool' do |spec|
+    spec.source_files = 'HannahUIKit/Classes/HHHudTool/**/*'
+end
 
 end
